@@ -1,0 +1,34 @@
+{
+  "name": "redux-toast-feedback",
+  "version": "0.1.0",
+  "description": "Show feedback when dispatching an action",
+  "keywords": [],
+  "main": "build/index.js",
+  "jsnext:main": "src/index.js",
+  "files": [
+    "build",
+    "src"
+  ],
+  "devDependencies": {
+    "@mathieudutour/js-fatigue": "^1.0.2",
+    "redux-optimist-promise": "^0.7.1"
+  },
+  "peerDependencies": {
+    "redux-optimist-promise": "^0.7.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make clean build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathieudutour/redux-toast-feedback.git"
+  },
+  "author": "Mathieu Dutour",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "loose-envify"
+    ]
+  }
+}
