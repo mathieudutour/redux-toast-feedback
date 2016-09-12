@@ -11,6 +11,7 @@
   ],
   "devDependencies": {
     "@mathieudutour/js-fatigue": "^1.0.2",
+    "babel-preset-react": "6.11.1",
     "redux-optimist-promise": "^0.7.1"
   },
   "peerDependencies": {
